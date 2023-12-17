@@ -15,7 +15,7 @@ const HeroNav = () => {
   return (
     <div>
       <div className={'container my-3'}>
-        <div className={classes.border__raduis + ' bg-dark d-flex align-items-center my-3'}>
+        <div className={classes.border__raduis + ' bg-dark d-flex align-items-center '}>
           {items.map((item, index) => (
             <div
               key={index}
@@ -25,9 +25,9 @@ const HeroNav = () => {
               {index === items.length - 1 ? ( // Check if it's the last item
                 <>
                  
-                  <span className={'mx-4'}>ICON</span> 
+                  <span className={'mx-1'}>ICON</span> 
                   {item} {/* Last item text */}
-                  <span className={ 'mx-4'}>ICON</span> 
+                  <span className={ 'mx-1'}>ICON</span> 
                 </>
               ) : (
                 item // Render other items without icons
