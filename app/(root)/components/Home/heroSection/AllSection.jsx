@@ -71,7 +71,7 @@ const AllSection = () => {
     ]
   return (
     <div>
-      <div className="bg-light rounded-4" style={{overflowY:"auto",height:"68vh"}}>
+      <div className="bg-light shadow rounded-4" style={{overflowY:"auto",height:"75vh"}}>
 {
     sections.map(item =>(
       <div className="my-3 d-flex align-items-center justify-content-around" key={item.id}>

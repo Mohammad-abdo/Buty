@@ -8,7 +8,7 @@ const HeroSection = () => {
     <div>
       <HeroNav/>
       <div className=" d-flex align-items-center justify-content-between  container">
-      <div className="  " style={{width:"80%"}}>
+      <div className="  " style={{width:"78%"}}>
        
        <div className="">
        <HeroCarosule/>
@@ -19,7 +19,7 @@ const HeroSection = () => {
       
        
         </div>      
-        <div className="" style={{width:"18%"}}>
+        <div className="" style={{width:"20%"}}>
 
    <AllSection/>
         </div>
