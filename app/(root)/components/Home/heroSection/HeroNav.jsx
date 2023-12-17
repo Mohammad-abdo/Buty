@@ -2,7 +2,8 @@
 
 import React, { useState } from 'react';
 import classes from './HeroSection.module.css';
-
+import { GrAppsRounded } from "react-icons/gr";
+import { FaAnglesDown } from "react-icons/fa6";
 const HeroNav = () => {
   const [selected, setSelected] = useState('تصفح الأقسام'); // Initially set the last item as selected
 
@@ -25,9 +26,14 @@ const HeroNav = () => {
               {index === items.length - 1 ? ( // Check if it's the last item
                 <>
                  
-                  <span className={'mx-1'}>ICON</span> 
-                  {item} {/* Last item text */}
-                  <span className={ 'mx-1'}>ICON</span> 
+                 <div className='d-flex align-items-center justify-content-between  w-100'>
+                 <span className={ 'mx-2'}><FaAnglesDown/></span> 
+                 <div className="mx-2">
+                 {item} {/* Last item text */}
+                  <span className={'mx-2'}><GrAppsRounded/> </span> 
+                 </div>
+                 
+                 </div>
                 </>
               ) : (
                 item // Render other items without icons

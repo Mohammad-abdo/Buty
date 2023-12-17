@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 // import './SearchInput.css'; // Import CSS file for styling
-
+import { FaAngleDoubleDown } from "react-icons/fa";
 const SearchInput = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [showDropdown, setShowDropdown] = useState(false);
@@ -75,9 +75,10 @@ const SearchInput = () => {
     //     )}
     //   </div>
     // </div>
-    <div className="form-group d-flex align-items-center border border-2 px-3 rounded-pill ">
-        <input type="text" className="form-control border-0 shadow-none" />
-        <div class="dropdown open">
+    <div className="form-group d-flex align-items-center border border-3 border-warning px-3 rounded-pill  " style={{borderColor:"red"}}>
+        <input type="text" className="form-control border-0 shadow-none d-flex justify-content-end " placeholder='...بحث'/>
+        <div class="dropdown open d-flex align-items-center">
+          <FaAngleDoubleDown className='mx-2'/>
          الاقسام 
         </div>
         
