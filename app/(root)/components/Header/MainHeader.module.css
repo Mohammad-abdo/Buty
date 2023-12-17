@@ -1,0 +1,25 @@
+.head1__a__hover:hover{
+    color:#F39406 !important;
+
+}
+.head1__a__hover,.custom__select{
+transition: all .7s ease-in-out;
+font-size: 1em;
+
+}
+.custom__select {
+    appearance: none; /* Remove default arrow icon */
+    color: #00000080;
+     /* Adjust padding to maintain space for text */
+    border: none !important; /* Remove border */
+    outline: none !important; /* Remove outline */
+    background-image: none; /* Remove default background image */
+    background-color: transparent !important; /* Set background color as transparent */
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+    background-size: 0.5rem auto;
+    -webkit-box-shadow: none; /* Remove default box shadow (if any) */
+    box-shadow: none; /* Remove default box shadow (if any) */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  

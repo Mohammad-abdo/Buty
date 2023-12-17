@@ -1,0 +1,12 @@
+.section__link{
+    width: 25%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 8px 0;
+}
+.active{
+
+}
