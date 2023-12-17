@@ -11,7 +11,7 @@ const Header2 = () => {
   <div className="right ">
     <a href="" className='mx-3 '>سلة التسوق</a>
     <a href="" className='mx-3 '>المساعدة </a>
-    <a href="" className='mx-3 '>تسجيل الدخول</a>
+    <a href="" className=' '>تسجيل الدخول</a>
   </div>
   <div className="right ">
    

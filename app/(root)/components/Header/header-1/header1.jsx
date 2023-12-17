@@ -25,7 +25,7 @@ const Header = () => {
   return (
     <div>
     <div className="container my-3">
-        <div className="d-flex  flex-md-row align-items-center justify-content-between mx-3">
+        <div className="d-flex  flex-md-row align-items-center justify-content-between ">
         <div>
         <a href={'#'}  className= {classes.head1__a__hover + '  text-black-50  text-decoration-none'}> <CustomLanguageDropdown/></a>
 
@@ -36,7 +36,7 @@ const Header = () => {
               }
            
             </div>
-            <div><a href="#" className=' text-black-50  text-decoration-none' > {t("trader")} </a></div>
+            <div><a href="#" className=' text-black-50  m-0 text-decoration-none' > {t("trader")} </a></div>
             
         </div>
       </div>
