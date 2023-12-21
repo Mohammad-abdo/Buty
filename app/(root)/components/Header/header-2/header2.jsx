@@ -8,14 +8,14 @@ const Header2 = () => {
   return (
     <div  className='container'>
 <div className="row d-flex align-items-center justify-content-between">
-<div className="col">
+<div className="col-lg-3 col-md-3 sm-col-6">
 <div className="right d-flex align-items-center justify-content-between">
     <div  className='fs-5 ' > <a href="#" className='text-decoration-none text-dark'> سلة التسوق </a> </div>
     <div  className='fs-5'><a href="#" className='text-decoration-none text-dark'>المساعدة </a>   </div>
     <div  className=' fs-5'> <a href="#" className='text-decoration-none text-dark'> تسجيل الدخول </a> </div>
   </div>
 </div>
-<div className="col-6">
+<div className="col-lg-6 md-col-6 sm-col-12">
 <div className="right ">
    
       
@@ -23,7 +23,7 @@ const Header2 = () => {
  
 </div>
 </div>
-<div className="col"> 
+<div className="col-lg-3  col-md-3 sm-col-6"> 
 
   <div className=" d-flex justify-content-between ">
     <span className="fs-5">الرياض <CiLocationOn/> </span>
