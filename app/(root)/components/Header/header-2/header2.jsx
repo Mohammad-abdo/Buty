@@ -6,16 +6,17 @@ import { FaMapMarkerAlt } from 'react-icons/fa'; // Assuming you're using the 'r
 import { CiLocationOn } from "react-icons/ci";
 const Header2 = () => {
   return (
-    <div  className='container'>
+<div className='bg-[#ddd] '>
+<div  className='container w-[95%] py-2' >
 <div className="row d-flex align-items-center justify-content-between">
-<div className="col-lg-3 col-md-3 sm-col-6">
-<div className="right d-flex align-items-center justify-content-between">
-    <div  className='fs-5 ' > <a href="#" className='text-decoration-none text-dark'> سلة التسوق </a> </div>
-    <div  className='fs-5'><a href="#" className='text-decoration-none text-dark'>المساعدة </a>   </div>
-    <div  className=' fs-5'> <a href="#" className='text-decoration-none text-dark'> تسجيل الدخول </a> </div>
+<div className=" lg:w-[25%]  sm:w-[100%]">
+<div className="right flex items-center justify-content-between ">
+    <div  className='text-[19px] hover:text-[#ed9421]  ' > <a href="#" className='text-decoration-none text-black hover:text-[#ed9421] '> سلة التسوق </a> </div>
+    <div  className='text-[19px] hover:text-[#ed9421] '><a href="#" className='text-decoration-none text-black hover:text-[#ed9421] '>المساعدة </a>   </div>
+    <div  className=' text-[19px] hover:text-[#ed9421] '> <a href="#" className='text-decoration-none text-black hover:text-[#ed9421] '> تسجيل الدخول </a> </div>
   </div>
 </div>
-<div className="col-lg-6 md-col-6 sm-col-12">
+<div className=" lg:w-[50%] sm:w-[50%]">
 <div className="right ">
    
       
@@ -23,16 +24,18 @@ const Header2 = () => {
  
 </div>
 </div>
-<div className="col-lg-3  col-md-3 sm-col-6"> 
+<div className="  lg:w-[25%]  sm:w-[50%]"> 
 
-  <div className=" d-flex justify-content-between ">
-    <span className="fs-5">الرياض <CiLocationOn/> </span>
+  <div className=" flex items-center justify-between ">
+    <div className=" flex items-center w-1/2 "><span className="text-[19px] mx-1">الرياض </span> <CiLocationOn/> </div>
+    <div className="mx-2"><span className="text-[19px]">BUTY CENTER</span></div>
    
-      <span className="fs-5">BUTY CENTER</span>
+      
    
   </div></div>
 </div>
     </div>
+</div> 
   )
 }
 

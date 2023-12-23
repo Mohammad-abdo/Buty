@@ -15,8 +15,8 @@ const HeroNav = () => {
 
   return (
     <div>
-      <div className={'container my-3'}>
-        <div className={classes.border__raduis + ' bg-dark d-flex align-items-center '}>
+      <div className={'mx-auto my-3'} style={{width:"95%"}}>
+        <div className={classes.border__raduis + ' bg-black flex items-center '}>
           {items.map((item, index) => (
             <div
               key={index}
@@ -28,8 +28,8 @@ const HeroNav = () => {
                  
                  <div className='d-flex align-items-center justify-content-between  w-100'>
                  <span className={ 'mx-2'}><FaAnglesDown/></span> 
-                 <div className="mx-2">
-                 {item} {/* Last item text */}
+                 <div className="mx-2 flex items-center">
+                 {item} 
                   <span className={'mx-2'}><GrAppsRounded/> </span> 
                  </div>
                  

@@ -74,7 +74,7 @@ const TradeMarks = () => {
     console.log(index);
   };
   return (
-    <div className="container my-3">
+    <div className="container w-[94%] my-3">
       <div className="row d-flex justify-content-between">
         <div className="col-lg-8 col-md-8 col-sm-12   rounded-4 shadow " style={{backgroundColor:"#ddd",width:"64%"}}>
           <div className="my-3">

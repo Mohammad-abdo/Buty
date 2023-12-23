@@ -67,7 +67,7 @@ const CarosuleCards = () => {
         }
       };
   return (
-    <div>
+    <div >
           <Carousel responsive={responsive}
         infinite={true}
         transitionDuration={500}

@@ -46,11 +46,18 @@ const CustomLanguageSelect = () => {
   };
 
   return (
-    <select className={classes.custom__select} value={i18n.language} onChange={handleLanguageChange}>
-      <option value="en" className='my-4 bg-light'>English</option>
-      <option value="sr" className='m-4'>العربية</option>
+
+      <select className={classes.custom__select} value={i18n.language} onChange={handleLanguageChange}>
+     
+        <option value="en" className='p-4 bg-[#000] w-6'>English</option>
+     <option value="sr" className='m-4'>العربية</option>
+    
       
-    </select>
+     </select>
+    
+
+
+
   );
 };
 

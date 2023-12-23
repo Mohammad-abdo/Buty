@@ -52,7 +52,7 @@ const DailyOffers = () => {
     },
   };
   return (
-    <div className="header container rounded-4 shadow my-4 ">
+    <div className="header container w-[94%] rounded-4 shadow my-4 ">
       <div className="  d-flex align-items-center justify-content-between py-2">
         <span className="bg-light my-1 border-1 mx-2 px-4 shadow p-0 rounded-4 btn">
           All
@@ -64,8 +64,8 @@ const DailyOffers = () => {
         infinite={true}
         transitionDuration={500}
         autoPlaySpeed={1000}
-        swipeable={false}
-        draggable={false}
+        swipeable={true}
+        draggable={true}
       >
         {Brands.map((img) => (
           <div className="">

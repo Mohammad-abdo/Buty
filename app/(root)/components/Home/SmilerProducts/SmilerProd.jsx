@@ -2,7 +2,7 @@ import React from "react";
 import CarosuleCards from './CarosuleCards'
 const SmilerProd = () => {
   return (
-    <div className="container my-5">
+    <div className="container w-[94%] my-5">
       <div className="row d-flex align-items-center justify-content-between">
        
         <div className=" rounded-4 shadow" style={{backgroundColor:"#ddd",width:"73%"}}>

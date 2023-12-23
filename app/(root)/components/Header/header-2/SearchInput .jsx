@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 // import './SearchInput.css'; // Import CSS file for styling
 import { FaAngleDoubleDown } from "react-icons/fa";
+import SctionsSelect from './SctionsSelect'
+import './style.css'
+
 const SearchInput = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [showDropdown, setShowDropdown] = useState(false);
@@ -52,34 +55,21 @@ const SearchInput = () => {
   }, []);
 
   return (
-    // <div className="search-input-container">
-    //   <div className="search-input" style={{ border: '2px solid yellow' }}>
-    //     <input
-    //       type="text"
-    //       placeholder="Search..."
-    //       value={searchTerm}
-    //       onChange={handleInputChange}
-    //     />
-    //     {showDropdown && (
-    //       <div className="dropdown-options">
-    //         {dropdownOptions.map((option, index) => (
-    //           <div
-    //             key={index}
-    //             className="dropdown-option"
-    //             onClick={() => handleDropdownSelection(option)}
-    //           >
-    //             {option}
-    //           </div>
-    //         ))}
-    //       </div>
-    //     )}
-    //   </div>
-    // </div>
-    <div className="form-group d-flex align-items-center border border-3 border-warning px-3 rounded-pill  " style={{borderColor:"red"}}>
-        <input type="text" className="form-control border-0 shadow-none d-flex justify-content-end " placeholder='...بحث'/>
-        <div class="dropdown open d-flex align-items-center">
-          <FaAngleDoubleDown className='mx-2'/>
-         الاقسام 
+
+    <div className=" position-relative form-group d-flex align-items-center  border-2 bg-light   border-warning px-3 rounded-pill  " >
+        <input type="text" className="form-control border-2 bg-light  border-0 shadow-none d-flex justify-content-end   " placeholder='...بحث ' style={{direction:"rtl"}}/ >
+        <div className=" transform translate-x-[14px] bg-light rounded-pill px-1 overlay-none">
+       
+         {/* <SctionsSelect/> */}
+  <select className=" border-none  p-2  bg-light rounded-pill">
+  <option>الاقسام </option>
+  <option value="US"  className=' my-3 block' style={{margin:"10px"}}>United States</option>
+  <option value="CA"><span  className=' my-3 block'>Canada</span></option>
+  <option value="FR">France</option>
+  <option value="DE">Germany</option>
+</select>
+
+
         </div>
         
     </div>

@@ -1,0 +1,18 @@
+#countries {
+    width: 200px; /* Set your desired width */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    outline: none; /* Remove default focus outline */
+    font-size: 14px;
+ 
+    /* Add any other styles you want for the dropdown */
+  }
+  
+  /* Styling the dropdown options */
+  #countries option {
+   height:30px !important;
+   display: block;
+   
+  }

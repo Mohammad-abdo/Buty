@@ -24,9 +24,9 @@ const Header = () => {
   ]
 
   return (
-    <div>
-      <div className="container  my-3">
-        <div className="d-flex  flex-md-row align-items-center justify-content-between ">
+    <div className='bg-light'>
+      <div className="container w-[95%] py-2" >
+        <div className="flex  flex-md-row -items-center justify-between ">
           <div>
             <a href={'#'} className={classes.head1__a__hover + '  text-black-50  text-decoration-none'}> <CustomLanguageDropdown /></a>
 
